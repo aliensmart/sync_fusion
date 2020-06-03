@@ -3,6 +3,15 @@ import { closest, isNullOrUndefined } from '@syncfusion/ej2-base';
 import { GridComponent, ColumnsDirective, ColumnDirective, Filter, Inject, VirtualScroll, Sort } from '@syncfusion/ej2-react-grids';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 import { SampleBase } from '../common/sample-base';
+import ratingTemplate from './sub_components/ratingTemplate';
+import progessTemplate from './sub_components/progressTemplate';
+import trustTemplate from './sub_components/trustTemplate';
+import empTemplate from './sub_components/empTemplate';
+import coltemplate from './sub_components/coltemplate';
+import trustdetails from './sub_components/trustdetails';
+import ratingDetails from './sub_components/ratingDetails';
+import statusdetails from './sub_components/statusDetails';
+import statusTemplate from './sub_components/statusTemplate';
 import { getData } from './data';
 import './grid-overview.css';
 
