@@ -175,3 +175,5 @@ export class OverView extends App {
 </div>);
     }
 }
+
+export default OverView
