@@ -2,7 +2,7 @@ import * as React from 'react';
 import { closest, isNullOrUndefined } from '@syncfusion/ej2-base';
 import { GridComponent, ColumnsDirective, ColumnDirective, Filter, Inject, VirtualScroll, Sort } from '@syncfusion/ej2-react-grids';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
-import { SampleBase } from '../common/sample-base';
+import { App } from '../App';
 import ratingTemplate from './sub_components/ratingTemplate';
 import progessTemplate from './sub_components/progressTemplate';
 import trustTemplate from './sub_components/trustTemplate';
@@ -15,7 +15,7 @@ import statusTemplate from './sub_components/statusTemplate';
 import { getData } from './data';
 import './grid-overview.css';
 
-export class OverView extends SampleBase {
+export class OverView extends App {
     constructor() {
         super(...arguments);
         this.dReady = false;
